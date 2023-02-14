@@ -98,6 +98,7 @@ code {
     background-color: var(--background-color2);
     border-radius: 3px;
     padding: 5px;
+    letter-spacing: -0.5px;
 }
 .imgItem {
     display: inline-block;
@@ -133,7 +134,13 @@ code {
     opacity: 1;
 }
 .imgItemInfo * {
-    margin-bottom: 7px;
+    margin-bottom: 4px;
+}
+.tasksBtn {
+    display: none;
+}
+.imgItemInfo:hover > button {
+    display: inline-block;
 }
 .imgItem .image_clear_btn {
     transform: translate(40%, -50%);
